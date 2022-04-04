@@ -248,6 +248,37 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.MediaGallery/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.MediaGallery.Permision": "2.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/NativeMedia.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/NativeMedia.dll": {}
+        }
+      },
+      "Xamarin.MediaGallery.Permision/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/NativeMedia.Permision.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/NativeMedia.Permision.dll": {}
+        }
+      },
       "Notes/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -255,6 +286,7 @@
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.MediaGallery": "2.1.1",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -512,6 +544,37 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.MediaGallery/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.MediaGallery.Permision": "2.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/NativeMedia.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/NativeMedia.dll": {}
+        }
+      },
+      "Xamarin.MediaGallery.Permision/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/NativeMedia.Permision.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/NativeMedia.Permision.dll": {}
+        }
+      },
       "Notes/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -519,6 +582,7 @@
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.MediaGallery": "2.1.1",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -776,6 +840,37 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.MediaGallery/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.MediaGallery.Permision": "2.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/NativeMedia.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/NativeMedia.dll": {}
+        }
+      },
+      "Xamarin.MediaGallery.Permision/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/NativeMedia.Permision.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/NativeMedia.Permision.dll": {}
+        }
+      },
       "Notes/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -783,6 +878,7 @@
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.MediaGallery": "2.1.1",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -1040,6 +1136,37 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.MediaGallery/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.MediaGallery.Permision": "2.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/NativeMedia.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/NativeMedia.dll": {}
+        }
+      },
+      "Xamarin.MediaGallery.Permision/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/NativeMedia.Permision.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/NativeMedia.Permision.dll": {}
+        }
+      },
       "Notes/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1047,6 +1174,7 @@
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.MediaGallery": "2.1.1",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -1541,6 +1669,57 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.MediaGallery/2.1.1": {
+      "sha512": "obvGUO3LT8BCyNqifkwN02weNHYnh+a6GtygiJskMT/QH7GmNH04eSAvgDmo9/Do3O1VCOSFPQYcA9bBQEJpsA==",
+      "type": "package",
+      "path": "xamarin.mediagallery/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "icon.png",
+        "lib/monoandroid10.0/NativeMedia.dll",
+        "lib/monoandroid10.0/NativeMedia.xml",
+        "lib/monoandroid11.0/NativeMedia.dll",
+        "lib/monoandroid11.0/NativeMedia.xml",
+        "lib/net6.0-android31.0/NativeMedia.aar",
+        "lib/net6.0-android31.0/NativeMedia.dll",
+        "lib/net6.0-android31.0/NativeMedia.xml",
+        "lib/net6.0-ios15.0/NativeMedia.dll",
+        "lib/net6.0-ios15.0/NativeMedia.xml",
+        "lib/net6.0/NativeMedia.dll",
+        "lib/net6.0/NativeMedia.xml",
+        "lib/netstandard2.0/NativeMedia.dll",
+        "lib/netstandard2.0/NativeMedia.xml",
+        "lib/xamarinios10/NativeMedia.dll",
+        "lib/xamarinios10/NativeMedia.xml",
+        "xamarin.mediagallery.2.1.1.nupkg.sha512",
+        "xamarin.mediagallery.nuspec"
+      ]
+    },
+    "Xamarin.MediaGallery.Permision/2.0.0": {
+      "sha512": "XT6R+dtBkFdoZdYw3A9CuBeujv1KChcE+YVUGd/Cv14qjxvh/7dFRCWy/Hp4QHzYfuzNi7ojzxNmxOGZenElTQ==",
+      "type": "package",
+      "path": "xamarin.mediagallery.permision/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "icon.png",
+        "lib/monoandroid10.0/NativeMedia.Permision.dll",
+        "lib/monoandroid10.0/NativeMedia.Permision.xml",
+        "lib/monoandroid11.0/NativeMedia.Permision.dll",
+        "lib/monoandroid11.0/NativeMedia.Permision.xml",
+        "lib/netstandard2.0/NativeMedia.Permision.dll",
+        "lib/netstandard2.0/NativeMedia.Permision.xml",
+        "lib/xamarinios10/NativeMedia.Permision.dll",
+        "lib/xamarinios10/NativeMedia.Permision.xml",
+        "xamarin.mediagallery.permision.2.0.0.nupkg.sha512",
+        "xamarin.mediagallery.permision.nuspec"
+      ]
+    },
     "Notes/1.0.0": {
       "type": "project",
       "path": "../Notes/Notes.csproj",
@@ -1553,6 +1732,7 @@
       "Xam.Plugin.Media >= 5.0.1",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012",
+      "Xamarin.MediaGallery >= 2.1.1",
       "sqlite-net-pcl >= 1.8.116"
     ]
   },
@@ -1613,6 +1793,10 @@
             "target": "Package",
             "version": "[5.0.0.2012, )"
           },
+          "Xamarin.MediaGallery": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
           "sqlite-net-pcl": {
             "target": "Package",
             "version": "[1.8.116, )"
@@ -1631,5 +1815,20 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.0 to 1.6.1. Reference the package directly from the project to select a different version. \r\n Notes.iOS -> Xamarin.MediaGallery 2.1.1 -> Xamarin.Essentials (>= 1.7.0) \r\n Notes.iOS -> Xamarin.Essentials (>= 1.6.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

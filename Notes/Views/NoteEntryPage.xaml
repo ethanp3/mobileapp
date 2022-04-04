@@ -21,21 +21,21 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
-            
+
+            <!-- Layout children in two columns -->
+
             <Image x:Name="imgCam" Grid.Row="0" Grid.Column="0"/>
 
-            <Button x:Name="btnCam" Text="Camera" Grid.Row="1" Grid.Column="0" Margin="2"
+            <Button x:Name="btnCam" Text="Camera" Grid.Row="0" Grid.Column="0" Margin="2"
                     Clicked="BtnCam_Clicked"
                     BackgroundColor="#00a4fc" TextColor="#FFFFFF" />
-        </Grid>
+            <Button x:Name="imgSelect" Text="Pick Image" Grid.Row="0" Grid.Column="1" Margin="2"
+                    Clicked="OnPickImagesClick" />
 
-        <Grid ColumnDefinitions="*,*">
-            <!-- Layout children in two columns -->
-            <Button Text="Save"
+            <Button Text="Save" Grid.Row="2" Grid.Column="0" Margin="2"
                     Clicked="OnSaveButtonClicked" />
-            <Button Grid.Column="1"
-                    Text="Delete"
-                    Clicked="OnDeleteButtonClicked"/>
+            <Button Text="Delete" Grid.Row="2" Grid.Column="1" Margin="2"
+                    Clicked="OnDeleteButtonClicked" />
         </Grid>
     </StackLayout>
 </ContentPage>

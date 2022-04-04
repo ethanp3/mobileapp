@@ -4,7 +4,10 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "Notes.Android.dll" comes first in this list. */
 		"Notes.Android.dll",
 		"FormsViewGroup.dll",
+		"NativeMedia.dll",
+		"NativeMedia.Permision.dll",
 		"Notes.dll",
+		"Plugin.CurrentActivity.dll",
 		"Plugin.Media.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_v2.dll",

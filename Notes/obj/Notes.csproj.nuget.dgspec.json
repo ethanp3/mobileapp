@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[5.0.0.2012, )"
             },
+            "Xamarin.MediaGallery": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.8.116, )"

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.IO;
+using System.Threading.Tasks;
+using NativeMedia;
 using Notes.Models;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
@@ -63,10 +65,32 @@ namespace Notes.Views
             }
         }
 
+        private async void OnPickImagesClick(object sender, EventArgs args)
+        {
+            var result = await MediaGallery.PickAsync(1, MediaFileType.Image);
+
+            if (result?.Files == null)
+            {
+                return;
+            }
+
+            foreach (var media in result.Files)
+            {
+                var fileName = media.NameWithoutExtension;
+                var extension = media.Extension;
+
+                await DisplayAlert(fileName, $"Extension: {extension}", "OK");
+
+
+            }
+        }
+
+
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
             var note = (Note)BindingContext;
             note.Date = DateTime.UtcNow;
+
             if (!string.IsNullOrWhiteSpace(note.Text))
             {
                 await App.Database.SaveNoteAsync(note);
@@ -74,6 +98,7 @@ namespace Notes.Views
 
             // Navigate backwards
             await Shell.Current.GoToAsync("..");
+
         }
 
         async void OnDeleteButtonClicked(object sender, EventArgs e)
@@ -86,3 +111,4 @@ namespace Notes.Views
         }
     }
 }
+

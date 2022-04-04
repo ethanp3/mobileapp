@@ -1,4 +1,7 @@
 FormsViewGroup.dll
+NativeMedia.dll
+NativeMedia.Permision.dll
+Plugin.CurrentActivity.dll
 Plugin.Media.dll
 SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.AndroidX.Activity.dll
@@ -52,6 +55,7 @@ Xamarin.Google.Guava.ListenableFuture.dll
 androidx.versionedparcelable.versionedparcelable.aar
 androidx.lifecycle.lifecycle-runtime.aar
 androidx.core.core.aar
+androidx.browser.browser.aar
 androidx.customview.customview.aar
 androidx.viewpager.viewpager.aar
 androidx.savedstate.savedstate.aar
@@ -87,4 +91,3 @@ androidx.legacy.legacy-support-core-utils.aar
 androidx.asynclayoutinflater.asynclayoutinflater.aar
 androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
-androidx.browser.browser.aar

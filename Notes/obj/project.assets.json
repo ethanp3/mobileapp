@@ -220,6 +220,15 @@
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamarin.MediaGallery/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NativeMedia.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NativeMedia.dll": {}
+        }
       }
     }
   },
@@ -881,6 +890,35 @@
         "xamarin.forms.5.0.0.2012.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "Xamarin.MediaGallery/2.1.1": {
+      "sha512": "obvGUO3LT8BCyNqifkwN02weNHYnh+a6GtygiJskMT/QH7GmNH04eSAvgDmo9/Do3O1VCOSFPQYcA9bBQEJpsA==",
+      "type": "package",
+      "path": "xamarin.mediagallery/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "icon.png",
+        "lib/monoandroid10.0/NativeMedia.dll",
+        "lib/monoandroid10.0/NativeMedia.xml",
+        "lib/monoandroid11.0/NativeMedia.dll",
+        "lib/monoandroid11.0/NativeMedia.xml",
+        "lib/net6.0-android31.0/NativeMedia.aar",
+        "lib/net6.0-android31.0/NativeMedia.dll",
+        "lib/net6.0-android31.0/NativeMedia.xml",
+        "lib/net6.0-ios15.0/NativeMedia.dll",
+        "lib/net6.0-ios15.0/NativeMedia.xml",
+        "lib/net6.0/NativeMedia.dll",
+        "lib/net6.0/NativeMedia.xml",
+        "lib/netstandard2.0/NativeMedia.dll",
+        "lib/netstandard2.0/NativeMedia.xml",
+        "lib/xamarinios10/NativeMedia.dll",
+        "lib/xamarinios10/NativeMedia.xml",
+        "xamarin.mediagallery.2.1.1.nupkg.sha512",
+        "xamarin.mediagallery.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -889,6 +927,7 @@
       "Xam.Plugin.Media >= 5.0.1",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012",
+      "Xamarin.MediaGallery >= 2.1.1",
       "sqlite-net-pcl >= 1.8.116"
     ]
   },
@@ -956,6 +995,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2012, )"
+          },
+          "Xamarin.MediaGallery": {
+            "target": "Package",
+            "version": "[2.1.1, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",

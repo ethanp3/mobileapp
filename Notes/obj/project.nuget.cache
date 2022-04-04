@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "at5Hq8IEsqX+sSjWBACe4awduj01mJIfTGaN2+4Dyq1cA9SyMV0kCjW7tmmSYpCIzwqdYpH55ZWB9LAu+gUZHQ==",
+  "dgSpecHash": "3hM/Q/IiyZPWXrCwk9OLjcUl1ef9AIMCmqlg0uv4QtuTn3MyZwN4xbObXTghUz8Xb3f6IHcjUDmNlQ6F0dtDUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ethan\\Desktop\\Mobile App Development\\CollectionTracker\\mobileapp\\Notes\\Notes.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,8 @@
     "C:\\Users\\ethan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\ethan\\.nuget\\packages\\xamarin.mediagallery\\2.1.1\\xamarin.mediagallery.2.1.1.nupkg.sha512"
   ],
   "logs": []
 }
