@@ -11,7 +11,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Essentials": "1.7.1",
           "Xamarin.Forms": "5.0.0.2012",
           "Xamarin.MediaGallery": "2.1.1",
           "sqlite-net-pcl": "1.8.116"
@@ -112,7 +112,7 @@
       },
       "Xam.Plugin.Media/5.0.1": {
         "dependencies": {
-          "Xamarin.Essentials": "1.6.1"
+          "Xamarin.Essentials": "1.7.1"
         },
         "runtime": {
           "lib/netstandard2.0/Plugin.Media.dll": {
@@ -121,7 +121,7 @@
           }
         }
       },
-      "Xamarin.Essentials/1.6.1": {
+      "Xamarin.Essentials/1.7.1": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -248,12 +248,12 @@
       "path": "xam.plugin.media/5.0.1",
       "hashPath": "xam.plugin.media.5.0.1.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.6.1": {
+    "Xamarin.Essentials/1.7.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gG1Bp4j4bpJQ0dp9MeBJQJ9c8xULauIlhc7Cx5Qw4J2K1c+4Glq5n+gkb9Pm0UA/CevXVqLK5ZXmZkuYI52FgA==",
-      "path": "xamarin.essentials/1.6.1",
-      "hashPath": "xamarin.essentials.1.6.1.nupkg.sha512"
+      "sha512": "sha512-u7pUgvHJKTYo5ATiwRZvYviq2O0AQXIqxdna+sMxqidfWpbD7FBgFOLNAZzWKSll/AQBPeDrqLAWZNLq+ztpmQ==",
+      "path": "xamarin.essentials/1.7.1",
+      "hashPath": "xamarin.essentials.1.7.1.nupkg.sha512"
     },
     "Xamarin.Forms/5.0.0.2012": {
       "type": "package",

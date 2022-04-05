@@ -153,6 +153,7 @@ namespace Notes.Droid
 			global::NativeMedia.Resource.Id.text2 = global::Notes.Droid.Resource.Id.text2;
 			global::NativeMedia.Resource.Id.time = global::Notes.Droid.Resource.Id.time;
 			global::NativeMedia.Resource.Id.title = global::Notes.Droid.Resource.Id.title;
+			global::NativeMedia.Resource.Id.view_tree_lifecycle_owner = global::Notes.Droid.Resource.Id.view_tree_lifecycle_owner;
 			global::NativeMedia.Resource.Integer.status_bar_notification_info_maxnum = global::Notes.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::NativeMedia.Resource.Layout.browser_actions_context_menu_page = global::Notes.Droid.Resource.Layout.browser_actions_context_menu_page;
 			global::NativeMedia.Resource.Layout.browser_actions_context_menu_row = global::Notes.Droid.Resource.Layout.browser_actions_context_menu_row;
@@ -344,6 +345,7 @@ namespace Notes.Droid
 			global::NativeMedia.Permision.Resource.Id.text2 = global::Notes.Droid.Resource.Id.text2;
 			global::NativeMedia.Permision.Resource.Id.time = global::Notes.Droid.Resource.Id.time;
 			global::NativeMedia.Permision.Resource.Id.title = global::Notes.Droid.Resource.Id.title;
+			global::NativeMedia.Permision.Resource.Id.view_tree_lifecycle_owner = global::Notes.Droid.Resource.Id.view_tree_lifecycle_owner;
 			global::NativeMedia.Permision.Resource.Integer.status_bar_notification_info_maxnum = global::Notes.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::NativeMedia.Permision.Resource.Layout.browser_actions_context_menu_page = global::Notes.Droid.Resource.Layout.browser_actions_context_menu_page;
 			global::NativeMedia.Permision.Resource.Layout.browser_actions_context_menu_row = global::Notes.Droid.Resource.Layout.browser_actions_context_menu_row;
@@ -756,6 +758,7 @@ namespace Notes.Droid
 			global::Xamarin.Essentials.Resource.Id.text2 = global::Notes.Droid.Resource.Id.text2;
 			global::Xamarin.Essentials.Resource.Id.time = global::Notes.Droid.Resource.Id.time;
 			global::Xamarin.Essentials.Resource.Id.title = global::Notes.Droid.Resource.Id.title;
+			global::Xamarin.Essentials.Resource.Id.view_tree_lifecycle_owner = global::Notes.Droid.Resource.Id.view_tree_lifecycle_owner;
 			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::Notes.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_page = global::Notes.Droid.Resource.Layout.browser_actions_context_menu_page;
 			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_row = global::Notes.Droid.Resource.Layout.browser_actions_context_menu_row;
@@ -13349,25 +13352,28 @@ namespace Notes.Droid
 			public const int view_offset_helper = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int view_tree_saved_state_registry_owner = 2131231030;
+			public const int view_tree_lifecycle_owner = 2131231030;
 			
 			// aapt resource value: 0x7F080137
-			public const int visible = 2131231031;
+			public const int view_tree_saved_state_registry_owner = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int visible_removing_fragment_view_tag = 2131231032;
-			
-			// aapt resource value: 0x7F08013A
-			public const int withinBounds = 2131231034;
+			public const int visible = 2131231032;
 			
 			// aapt resource value: 0x7F080139
-			public const int withText = 2131231033;
+			public const int visible_removing_fragment_view_tag = 2131231033;
 			
 			// aapt resource value: 0x7F08013B
-			public const int wrap_content = 2131231035;
+			public const int withinBounds = 2131231035;
+			
+			// aapt resource value: 0x7F08013A
+			public const int withText = 2131231034;
 			
 			// aapt resource value: 0x7F08013C
-			public const int zero_corner_chip = 2131231036;
+			public const int wrap_content = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int zero_corner_chip = 2131231037;
 			
 			static Id()
 			{

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5Xe05ZC72w3tiP7Upq3Tu9N5XCIjNHYWsieRqG/YMyycPa2qNL6SDK495roBKe9zopchaiF3/AtkTH1HZ0OJ9g==",
+  "dgSpecHash": "L/3EXLUiAr79yBMUa5cf2p/6XwUqMoUepgLBgzHPxDH1+im7u5i5TeajFNEacMAIQYR4d6U1CNnqsSckOXpiYg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ethan\\Desktop\\Mobile App Development\\CollectionTracker\\mobileapp\\Notes.iOS\\Notes.iOS.csproj",
   "expectedPackageFiles": [
@@ -13,24 +13,10 @@
     "C:\\Users\\ethan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\ethan\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\xamarin.mediagallery\\2.1.1\\xamarin.mediagallery.2.1.1.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\xamarin.mediagallery.permision\\2.0.0\\xamarin.mediagallery.permision.2.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.0 to 1.6.1. Reference the package directly from the project to select a different version. \r\n Notes.iOS -> Xamarin.MediaGallery 2.1.1 -> Xamarin.Essentials (>= 1.7.0) \r\n Notes.iOS -> Xamarin.Essentials (>= 1.6.1)",
-      "libraryId": "Xamarin.Essentials",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    }
-  ]
+  "logs": []
 }

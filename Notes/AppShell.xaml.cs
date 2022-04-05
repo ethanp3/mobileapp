@@ -1,5 +1,6 @@
 ﻿using Notes.Views;
 using Xamarin.Forms;
+using Xamarin.Essentials;
 
 namespace Notes
 {

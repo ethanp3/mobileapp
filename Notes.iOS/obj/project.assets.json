@@ -108,7 +108,7 @@
           "lib/xamarinios10/Plugin.Media.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1": {
+      "Xamarin.Essentials/1.7.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -284,7 +284,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Essentials": "1.7.1",
           "Xamarin.Forms": "5.0.0.2012",
           "Xamarin.MediaGallery": "2.1.1",
           "sqlite-net-pcl": "1.8.116"
@@ -404,7 +404,7 @@
           "lib/xamarinios10/Plugin.Media.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1": {
+      "Xamarin.Essentials/1.7.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -580,7 +580,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Essentials": "1.7.1",
           "Xamarin.Forms": "5.0.0.2012",
           "Xamarin.MediaGallery": "2.1.1",
           "sqlite-net-pcl": "1.8.116"
@@ -700,7 +700,7 @@
           "lib/xamarinios10/Plugin.Media.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1": {
+      "Xamarin.Essentials/1.7.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -876,7 +876,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Essentials": "1.7.1",
           "Xamarin.Forms": "5.0.0.2012",
           "Xamarin.MediaGallery": "2.1.1",
           "sqlite-net-pcl": "1.8.116"
@@ -996,7 +996,7 @@
           "lib/xamarinios10/Plugin.Media.dll": {}
         }
       },
-      "Xamarin.Essentials/1.6.1": {
+      "Xamarin.Essentials/1.7.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -1172,7 +1172,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Essentials": "1.7.1",
           "Xamarin.Forms": "5.0.0.2012",
           "Xamarin.MediaGallery": "2.1.1",
           "sqlite-net-pcl": "1.8.116"
@@ -1402,10 +1402,10 @@
         "xam.plugin.media.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.6.1": {
-      "sha512": "gG1Bp4j4bpJQ0dp9MeBJQJ9c8xULauIlhc7Cx5Qw4J2K1c+4Glq5n+gkb9Pm0UA/CevXVqLK5ZXmZkuYI52FgA==",
+    "Xamarin.Essentials/1.7.1": {
+      "sha512": "u7pUgvHJKTYo5ATiwRZvYviq2O0AQXIqxdna+sMxqidfWpbD7FBgFOLNAZzWKSll/AQBPeDrqLAWZNLq+ztpmQ==",
       "type": "package",
-      "path": "xamarin.essentials/1.6.1",
+      "path": "xamarin.essentials/1.7.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1414,15 +1414,6 @@
         "lib/monoandroid10.0/Xamarin.Essentials.dll",
         "lib/monoandroid10.0/Xamarin.Essentials.pdb",
         "lib/monoandroid10.0/Xamarin.Essentials.xml",
-        "lib/monoandroid80/Xamarin.Essentials.dll",
-        "lib/monoandroid80/Xamarin.Essentials.pdb",
-        "lib/monoandroid80/Xamarin.Essentials.xml",
-        "lib/monoandroid81/Xamarin.Essentials.dll",
-        "lib/monoandroid81/Xamarin.Essentials.pdb",
-        "lib/monoandroid81/Xamarin.Essentials.xml",
-        "lib/monoandroid90/Xamarin.Essentials.dll",
-        "lib/monoandroid90/Xamarin.Essentials.pdb",
-        "lib/monoandroid90/Xamarin.Essentials.xml",
         "lib/netstandard1.0/Xamarin.Essentials.dll",
         "lib/netstandard1.0/Xamarin.Essentials.pdb",
         "lib/netstandard1.0/Xamarin.Essentials.xml",
@@ -1449,7 +1440,7 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.6.1.nupkg.sha512",
+        "xamarin.essentials.1.7.1.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
@@ -1730,7 +1721,7 @@
     "Xamarin.iOS,Version=v1.0": [
       "Notes >= 1.0.0",
       "Xam.Plugin.Media >= 5.0.1",
-      "Xamarin.Essentials >= 1.6.1",
+      "Xamarin.Essentials >= 1.7.1",
       "Xamarin.Forms >= 5.0.0.2012",
       "Xamarin.MediaGallery >= 2.1.1",
       "sqlite-net-pcl >= 1.8.116"
@@ -1787,7 +1778,7 @@
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.6.1, )"
+            "version": "[1.7.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
@@ -1815,20 +1806,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.0 to 1.6.1. Reference the package directly from the project to select a different version. \r\n Notes.iOS -> Xamarin.MediaGallery 2.1.1 -> Xamarin.Essentials (>= 1.7.0) \r\n Notes.iOS -> Xamarin.Essentials (>= 1.6.1)",
-      "libraryId": "Xamarin.Essentials",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    }
-  ]
+  }
 }

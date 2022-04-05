@@ -21,6 +21,15 @@
                BasedOn="{StaticResource BaseStyle}" />
     </Shell.Resources>
 
+    <ShellContent Route="Login" x:Name="Login"
+                      ContentTemplate="{DataTemplate views:Login}" />
+    <ShellContent Title="My Collection"
+                      Icon="icon_feed.png"
+                      ContentTemplate="{DataTemplate views:NotesPage}" />
+    <ShellContent Title="My Wishlist"
+                      Icon="icon_star.png"
+                      ContentTemplate="{DataTemplate views:AboutPage}" />
+
     <!-- Display a bottom tab bar containing two tabs -->
     <TabBar>
         <ShellContent Title="My Collection"

@@ -2,6 +2,7 @@
 using System.IO;
 using Notes.Data;
 using Xamarin.Forms;
+using Xamarin.Essentials;
 
 namespace Notes
 {
@@ -25,8 +26,8 @@ namespace Notes
         public App()
         {
             InitializeComponent();
-            //MainPage = new AppShell();
-            MainPage = new NavigationPage(new Views.Login());
+            MainPage = new AppShell();
+            //MainPage = new NavigationPage(new Views.Login());
         }
 
         protected override void OnStart()
