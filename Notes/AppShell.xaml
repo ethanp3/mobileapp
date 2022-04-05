@@ -4,7 +4,7 @@
        xmlns:views="clr-namespace:Notes.Views"
        x:Class="Notes.AppShell">
 
-    <Shell.Resources>
+        <Shell.Resources>
         <!-- Style Shell elements -->
         <Style x:Key="BaseStyle"
                TargetType="Element">

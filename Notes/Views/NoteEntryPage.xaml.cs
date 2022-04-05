@@ -47,7 +47,7 @@ namespace Notes.Views
 
         private async void BtnCam_Clicked(object sender, EventArgs e)
         {
-            //var note = (Note)BindingContext;
+            var note = (Note)BindingContext;
 
             await CrossMedia.Current.Initialize();
 
@@ -74,6 +74,7 @@ namespace Notes.Views
                 file.Dispose();
                 return stream;
             });
+
         }
 
         private async void OnPickImagesClick(object sender, EventArgs args)
@@ -100,14 +101,14 @@ namespace Notes.Views
                 return stream;
             });
 
-            //image.ToByteArray() save image to db object
-
         }
 
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
             var note = (Note)BindingContext;
             note.Date = DateTime.UtcNow;
+
+            note.Icon = imgLbl.Text;
 
             if (!string.IsNullOrWhiteSpace(note.Text))
             {

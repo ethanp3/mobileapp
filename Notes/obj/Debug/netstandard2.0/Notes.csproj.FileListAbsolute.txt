@@ -52,3 +52,5 @@ C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Notes.dll
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\ref\Notes.dll
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Notes.pdb
+C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
+C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Views\Register.xaml.g.cs

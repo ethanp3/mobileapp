@@ -1775,3 +1775,4 @@ C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes.
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes.Android\obj\Debug\110\android\assets\Plugin.CurrentActivity.dll
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes.Android\obj\Debug\110\android\src\crc64435a5ac349fa9fda\ActivityLifecycleContextListener.java
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes.Android\obj\Debug\110\android\src\haraba\fileProvider.java
+C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes.Android\obj\Debug\110\res\drawable\logo.png
