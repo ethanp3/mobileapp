@@ -1779,3 +1779,6 @@ C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes.
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes.Android\obj\Debug\110\lp\55\jl\files.cache
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes.Android\obj\Debug\110\android\src\androidx\lifecycle\runtime\R.java
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes.Android\obj\Debug\110\android\src\crc64a0e0a82d0db9a07d\Connectivity_EssentialsNetworkCallback.java
+C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes.Android\obj\Debug\110\res\drawable\logout.png
+C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes.Android\obj\Debug\110\res\drawable\login.png
+C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes.Android\obj\Debug\110\res\drawable\slider_bg.png

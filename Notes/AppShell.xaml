@@ -15,28 +15,38 @@
             <Setter Property="Shell.TitleColor"
                     Value="{StaticResource SecondaryColor}" />
             <Setter Property="Shell.TabBarUnselectedColor"
-                    Value="#95FFFFFF"/>
+                    Value="black"/>
         </Style>
         <Style TargetType="TabBar"
                BasedOn="{StaticResource BaseStyle}" />
-    </Shell.Resources>
+        </Shell.Resources>
 
-    <ShellContent Route="Login" x:Name="Login"
-                      ContentTemplate="{DataTemplate views:Login}" />
-    <ShellContent Title="My Collection"
-                      Icon="icon_feed.png"
-                      ContentTemplate="{DataTemplate views:NotesPage}" />
-    <ShellContent Title="My Wishlist"
-                      Icon="icon_star.png"
-                      ContentTemplate="{DataTemplate views:AboutPage}" />
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid HeightRequest="150">
+                <Image Aspect="AspectFit"
+                         Source="slider_bg.png" />
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+    
+    <ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate views:Login}"
+        Icon="logout.png" />
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+        Title="My Collection"
+        ContentTemplate="{DataTemplate views:NotesPage}"
+        Icon="icon_feed.png" />
+        <ShellContent
+        Title="My Wishlist"
+        ContentTemplate="{DataTemplate views:AboutPage}"
+        Icon="icon_star.png" />
+    </FlyoutItem>
+    <ShellContent
+        Title="Logout"
+        ContentTemplate="{DataTemplate views:Login}"
+        Icon="logout.png" />
 
-    <!-- Display a bottom tab bar containing two tabs -->
-    <TabBar>
-        <ShellContent Title="My Collection"
-                      Icon="icon_feed.png"
-                      ContentTemplate="{DataTemplate views:NotesPage}" />
-        <ShellContent Title="My Wishlist"
-                      Icon="icon_star.png"
-                      ContentTemplate="{DataTemplate views:AboutPage}" />
-    </TabBar>
 </Shell>
