@@ -47,6 +47,8 @@
                     <Label Text="{Binding Date}"
                            TextColor="{StaticResource TertiaryColor}"
                            FontSize="Small" />
+                    <Label Text="{Binding Icon}"
+                           FontSize="Medium" />
                 </StackLayout>
             </DataTemplate>
         </CollectionView.ItemTemplate>

@@ -16,7 +16,7 @@ namespace Notes.Droid
         {
             base.OnCreate(savedInstanceState);
 
-            NativeMedia.Platform.Init(this, savedInstanceState);
+            NativeMedia.Platform.Init(this, savedInstanceState); //maybe no longer needed
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             await CrossMedia.Current.Initialize();

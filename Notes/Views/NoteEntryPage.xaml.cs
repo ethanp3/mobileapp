@@ -12,6 +12,8 @@ namespace Notes.Views
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
     public partial class NoteEntryPage : ContentPage
     {
+
+
         public string ItemId
         {
             set
@@ -45,46 +47,62 @@ namespace Notes.Views
 
         private async void BtnCam_Clicked(object sender, EventArgs e)
         {
-            try
-            {
+            //var note = (Note)BindingContext;
 
-                var photo = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions()
+            await CrossMedia.Current.Initialize();
+
+            if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
+            {
+                await DisplayAlert("No Camera", ":( No camera available ", "OK");
+                return;
+            }
+
+            var file = await CrossMedia.Current.TakePhotoAsync(
+                new StoreCameraMediaOptions
                 {
-                    DefaultCamera = Plugin.Media.Abstractions.CameraDevice.Rear,
-                    Directory = "Xamarin",
                     SaveToAlbum = true
                 });
 
-                if (photo != null)
-                    imgCam.Source = ImageSource.FromStream(() => { return photo.GetStream(); });
+            if (file == null)
+                return;
 
-            }
-            catch (Exception ex)
+            imgLbl.Text = file.AlbumPath;
+
+            imgPre.Source = ImageSource.FromStream(() =>
             {
-                await DisplayAlert("Error", ex.Message.ToString(), "Ok");
-            }
+                var stream = file.GetStream();
+                file.Dispose();
+                return stream;
+            });
         }
 
         private async void OnPickImagesClick(object sender, EventArgs args)
         {
-            var result = await MediaGallery.PickAsync(1, MediaFileType.Image);
+            await CrossMedia.Current.Initialize();
 
-            if (result?.Files == null)
+            if (!CrossMedia.Current.IsPickPhotoSupported)
             {
+                await DisplayAlert("Error", "Pick a photo is not supported", "OK");
                 return;
             }
 
-            foreach (var media in result.Files)
+            var file = await CrossMedia.Current.PickPhotoAsync();
+
+            if (file == null)
+                return;
+
+            imgLbl.Text = "Photo path: " +file.Path;
+
+            imgPre.Source = ImageSource.FromStream(() =>
             {
-                var fileName = media.NameWithoutExtension;
-                var extension = media.Extension;
+                var stream = file.GetStream();
+                file.Dispose();
+                return stream;
+            });
 
-                await DisplayAlert(fileName, $"Extension: {extension}", "OK");
+            //image.ToByteArray() save image to db object
 
-
-            }
         }
-
 
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
