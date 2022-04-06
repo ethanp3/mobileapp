@@ -15,10 +15,14 @@ namespace Notes.Data
             database.CreateTableAsync<Note>().Wait();
         }
 
-        public Task<List<Note>> GetNotesAsync()
+        public async Task<List<Note>> GetNotesAsync()
         {
+            var c = await database.QueryAsync<Note>("select ID, Text, Date, Icon, ItemType from Note where ItemType = 'Collection'  ");
+            return c;
             //Get all notes.
-            return database.Table<Note>().ToListAsync();
+            //return database.Table<Note>()
+            //    .Where(i => i.ItemType != "Wishlist")
+            //    .ToListAsync();
         }
 
         public Task<Note> GetNoteAsync(int id)
@@ -48,5 +52,19 @@ namespace Notes.Data
             // Delete a note.
             return database.DeleteAsync(note);
         }
+
+
+        //Wishlist Functions
+        public async Task<List<Note>> GetWishListNotesAsync()
+        {
+            var w = await database.QueryAsync<Note>("select ID, Text, Date, Icon, ItemType from Note where ItemType = 'Wishlist'  ");
+            return w;
+            //Get all notes.
+            //return database.Table<Note>()
+            //    .Where(i => i.ItemType == "Wishlist")
+            //    .ToListAsync();
+        }
+
+
     }
 }

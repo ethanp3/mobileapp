@@ -42,9 +42,6 @@ C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Notes.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
-C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
-C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Views\NoteEntryPage.xaml.g.cs
-C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Views\NotesPage.xaml.g.cs
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Notes.AssemblyInfoInputs.cache
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Notes.AssemblyInfo.cs
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Notes.csproj.CoreCompileInputs.cache
@@ -54,3 +51,7 @@ C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Notes.pdb
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
 C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Views\Register.xaml.g.cs
+C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Views\WishlistPage.xaml.g.cs
+C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Views\CollectionEntryPage.xaml.g.cs
+C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Views\CollectionPage.xaml.g.cs
+C:\Users\ethan\Desktop\Mobile App Development\CollectionTracker\mobileapp\Notes\obj\Debug\netstandard2.0\Views\WishListEntryPage.xaml.g.cs
