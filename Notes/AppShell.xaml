@@ -23,9 +23,10 @@
 
     <Shell.FlyoutHeaderTemplate>
         <DataTemplate>
-            <Grid HeightRequest="150">
+            <Grid HeightRequest="180" Padding="10,-10,0,10">
                 <Image Aspect="AspectFit"
-                         Source="slider_bg.png" />
+                         Source="slider_bg.png" HorizontalOptions="Start" />
+                <Label VerticalOptions="End" HorizontalOptions="Start" Padding="0,0,10,0" FontSize="18" FontAttributes="Bold" >Collection Tracker</Label>
             </Grid>
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
@@ -47,6 +48,6 @@
     <ShellContent
         Title="Logout"
         ContentTemplate="{DataTemplate views:Login}"
-        Icon="logout.png" />
+        Icon="login.png" />
 
 </Shell>

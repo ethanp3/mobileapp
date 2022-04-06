@@ -11,5 +11,6 @@ namespace Notes.Models
         public DateTime Date { get; set; }
         public string Icon { get; set; }
         public string ItemType { get; set; }
+
     }
 }

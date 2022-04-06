@@ -17,7 +17,7 @@ namespace Notes.Data
 
         public async Task<List<Note>> GetNotesAsync()
         {
-            var c = await database.QueryAsync<Note>("select ID, Text, Date, Icon, ItemType from Note where ItemType = 'Collection'  ");
+            var c = await database.QueryAsync<Note>("select ID, Text, Date, Icon from Note where ItemType = 'Collection'  ");
             return c;
             //Get all notes.
             //return database.Table<Note>()

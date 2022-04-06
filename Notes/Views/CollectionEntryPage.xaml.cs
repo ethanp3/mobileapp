@@ -12,8 +12,6 @@ namespace Notes.Views
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
     public partial class NoteEntryPage : ContentPage
     {
-
-
         public string ItemId
         {
             set
@@ -38,6 +36,8 @@ namespace Notes.Views
                 // Retrieve the note and set it as the BindingContext of the page.
                 Note note = await App.Database.GetNoteAsync(id);
                 BindingContext = note;
+                imgLbl.Text = note.Icon;
+                imgPre.Source = note.Icon;
             }
             catch (Exception)
             {
@@ -67,13 +67,7 @@ namespace Notes.Views
                 return;
 
             imgLbl.Text = file.AlbumPath;
-
-            imgPre.Source = ImageSource.FromStream(() =>
-            {
-                var stream = file.GetStream();
-                file.Dispose();
-                return stream;
-            });
+            imgPre.Source = ImageSource.FromFile(file.AlbumPath);
 
         }
 
@@ -92,14 +86,23 @@ namespace Notes.Views
             if (file == null)
                 return;
 
-            imgLbl.Text = "Photo path: " +file.Path;
+            imgLbl.Text = file.Path;
+            imgPre.Source = ImageSource.FromFile(file.Path);
 
-            imgPre.Source = ImageSource.FromStream(() =>
+        }
+
+        async void ToWishListClick(object sender, EventArgs e)
+        {
+            var note = (Note)BindingContext;
+            note.ItemType = "Wishlist";
+
+            if (note.ID != 0)
             {
-                var stream = file.GetStream();
-                file.Dispose();
-                return stream;
-            });
+                await App.Database.SaveNoteAsync(note);
+            }
+
+            // Navigate backwards
+            await Shell.Current.GoToAsync("..");
 
         }
 

@@ -18,8 +18,8 @@
                 HeightRequest="100" />
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="2*" />
-                <RowDefinition Height="50" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="150" />
                 <RowDefinition Height="50" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -29,19 +29,23 @@
 
             <!-- Layout children in two columns -->
 
-            <Button x:Name="btnCam" Text="Camera" Grid.Row="1" Grid.Column="0" 
-                    Clicked="BtnCam_Clicked"
-                    BackgroundColor="#00a4fc" TextColor="#FFFFFF" />
-            <Button x:Name="imgSelect" Text="Pick Image" Grid.Row="1" Grid.Column="1" 
+            <Button x:Name="btnCam" Text="Camera" Grid.Row="0" Grid.Column="0"
+                    Clicked="BtnCam_Clicked" />
+            <Button x:Name="imgSelect" Text="Select Image" Grid.Row="0" Grid.Column="1"
                     Clicked="OnPickImagesClick" />
 
-            <Button Text="Save" Grid.Row="2" Grid.Column="0" 
+            <Image x:Name="imgPre" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start"/>
+            <Label x:Name="imgLbl" Grid.Row="1" Grid.Column="1" />
+
+            <Button x:Name="moveWishlist" Text="Move to Wishlist" Grid.Row="4" Grid.ColumnSpan="2"
+                    Clicked="ToWishListClick"/>
+
+            <Button Text="Save" Grid.Row="5" Grid.Column="0" BackgroundColor="#66b032"
                     Clicked="OnCollectionSaveButtonClicked" />
-            <Button Text="Delete" Grid.Row="2" Grid.Column="1" 
+            <Button Text="Delete" Grid.Row="5" Grid.Column="1" BackgroundColor="#fe2712"
                     Clicked="OnDeleteButtonClicked" />
 
-            <Image x:Name="imgPre" Grid.Row="0" Grid.Column="0" />
-            <Label x:Name="imgLbl" Grid.Row="0" Grid.Column="1" />
+
             
         </Grid>
     </StackLayout>

@@ -28,6 +28,7 @@
         <ToolbarItem Text="Add"
                      Clicked="OnAddClicked" />
     </ContentPage.ToolbarItems>
+    
 
     <!-- Display notes in a list -->
     <CollectionView x:Name="collectionView"
@@ -35,23 +36,29 @@
                     SelectionMode="Single"
                     SelectionChanged="OnSelectionChanged">
         <CollectionView.ItemsLayout>
-            <LinearItemsLayout Orientation="Vertical"
-                               ItemSpacing="10" />
+            <GridItemsLayout Orientation="Vertical" 
+                               Span="2" />
         </CollectionView.ItemsLayout>
         <!-- Define the appearance of each item in the list -->
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <StackLayout>
-                    <Label Text="{Binding Text}"
+                <Grid Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="20" />
+                        <RowDefinition Height="30" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="{Binding Text}" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start"
                            FontSize="Medium" />
-                    <Label Text="{Binding Date}"
+                    <Label Text="{Binding Date}" Grid.Row="2" Grid.Column="0" HorizontalOptions="Start"
                            TextColor="{StaticResource TertiaryColor}"
                            FontSize="Small" />
-                    <Label Text="{Binding Icon}"
+                    <Button ImageSource="{Binding Icon}" HeightRequest="100" Grid.Column="0" 
                            FontSize="Medium" />
-                    <Label Text="{Binding ItemType}"
-                           FontSize="Medium" />
-                </StackLayout>
+                </Grid>
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
