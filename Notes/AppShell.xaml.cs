@@ -9,8 +9,10 @@ namespace Notes
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(NoteEntryPage), typeof(NoteEntryPage));
-            Routing.RegisterRoute(nameof(WishListEntryPage), typeof(WishListEntryPage));
+            Routing.RegisterRoute("Register", typeof(Register));
+            Routing.RegisterRoute("NotesPage", typeof(NotesPage));
+            Routing.RegisterRoute("NoteEntryPage", typeof(NoteEntryPage));
+            Routing.RegisterRoute("WishListEntryPage", typeof(WishListEntryPage));
         }
     }
 }

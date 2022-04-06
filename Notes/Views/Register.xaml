@@ -1,12 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Notes.Views.Register">
+             x:Class="Notes.Views.Register"
+             BackgroundColor="{StaticResource AppPrimaryColor}">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <StackLayout Padding="40" HorizontalOptions="FillAndExpand">
+
+            <Image Source="logo.png" WidthRequest="100" HeightRequest="100" VerticalOptions="Start"></Image>
+
+            <Entry x:Name="usernameReg" Placeholder="Username" 
+                   HorizontalTextAlignment="Center" TextColor="White" PlaceholderColor="White"  />
+            <Entry x:Name="passwordReg" Placeholder="Password" IsPassword="True" 
+                   HorizontalTextAlignment="Center" TextColor="White" PlaceholderColor="White" />
+            <Entry x:Name="nameReg" Placeholder="Name" 
+                   HorizontalTextAlignment="Center" TextColor="White" PlaceholderColor="White"  />
+            <Entry x:Name="emailReg" Placeholder="Email Address" 
+                   HorizontalTextAlignment="Center" TextColor="White" PlaceholderColor="White"  />
+            <Button
+                VerticalOptions="End"
+                Text="Register"
+                TextColor="Black"
+                BackgroundColor="White"
+                BorderWidth="2">
+                <!--Clicked="login_Clicked"-->
+            </Button>
+
+                
+            </StackLayout>
     </ContentPage.Content>
 </ContentPage>

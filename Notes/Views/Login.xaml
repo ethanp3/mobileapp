@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
 
-            <Image Source="logo.png" WidthRequest="100" HeightRequest="100"></Image>            
+            <Image Source="logo.png" WidthRequest="100" HeightRequest="100" BackgroundColor="Transparent" />            
             
             <Entry x:Name="usernameText" Placeholder="Username" HorizontalTextAlignment="Center" TextColor="White" PlaceholderColor="White"  />
             <Entry x:Name="passwordText" Placeholder="Password" IsPassword="True" HorizontalTextAlignment="Center" TextColor="White" PlaceholderColor="White" />

@@ -38,7 +38,8 @@
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent
         Title="My Collection"
-        ContentTemplate="{DataTemplate views:NotesPage}"
+         ContentTemplate="{DataTemplate views:NotesPage}"
+            Route="NotesPage"
         Icon="icon_feed.png" />
         <ShellContent
         Title="My Wishlist"

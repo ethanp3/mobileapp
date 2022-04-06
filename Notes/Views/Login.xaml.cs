@@ -17,11 +17,11 @@ namespace Notes.Views
             InitializeComponent();
         }
 
-        private void login_Clicked(object sender, EventArgs e)
+        private async void login_Clicked(object sender, EventArgs e)
         {
             if (usernameText.Text == "admin" && passwordText.Text == "123")
             {
-                Navigation.PushAsync(new NotesPage());
+                await Shell.Current.GoToAsync($"//{nameof(NotesPage)}");
             }
             else
             {
@@ -29,9 +29,9 @@ namespace Notes.Views
             }
         }
 
-        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Register());
+            await Shell.Current.GoToAsync($"//{nameof(Register)}");
         }
     }
 }
