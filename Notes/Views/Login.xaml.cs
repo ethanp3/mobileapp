@@ -25,7 +25,7 @@ namespace Notes.Views
             }
             else
             {
-                DisplayAlert("Alert", "Invalid login credentials. Please try again", "OK");
+                await DisplayAlert("Alert", "Invalid login credentials. Please try again", "OK");
             }
         }
 
